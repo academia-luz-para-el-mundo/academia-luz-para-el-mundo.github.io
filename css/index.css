@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+
+header{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(206, 136, 55, 0.493);
+    height: 100px;
+    color: aliceblue;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 230px;
+}
+
+
+.ventas{
+    transition:color 0.4s ease;
+    cursor: pointer;
+    margin: 0 20px;
+    display: inline;
+}
+.ventas:hover{
+    color: black;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2022/10/07/12/02/sunset-7504891_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+
+
+#contactos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    
+}  
+
+.contacto, .social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+
+
+.contacto a, .social a{
+    color: white;
+    margin: 20px 0px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 1.2rem 2rem;
+    transition: all 0.3s;
+}
+
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+} 
+
+
+.links-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
