@@ -38,25 +38,17 @@ header{
 }
 
 
-.ventas{
-    transition:color 0.4s ease;
-    cursor: pointer;
-    margin: 0 20px;
-    display: inline;
-}
-.ventas:hover{
-    color: black;
-}
+
 
 body {
     background-image: url(https://cdn.pixabay.com/photo/2022/10/07/12/02/sunset-7504891_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    overflow-x: hidden;
 }
 #logo{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +56,9 @@ body {
     height: 97vh;
 }
 
-
+#logo img{
+    width: 300px;
+}
 
 #contactos{
     width: 100%;

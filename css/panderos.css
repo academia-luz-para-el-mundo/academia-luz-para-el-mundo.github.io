@@ -3,6 +3,9 @@ h1{
     text-align: center;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 a{
     text-align: center;
@@ -19,7 +22,7 @@ header{
 }
 
 header img{
-    width: 500px;
+    width: 400px;
 }
 
 .fondoss{
